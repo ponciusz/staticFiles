@@ -2,8 +2,10 @@ var wrap = document.createElement("div");
 wrap.id = "debug-tools";
 document.body.appendChild(wrap);
 
-const scriptUrl = "https://custom-debug-kamil.surge.sh/assets/index-ae17c913.js";
-const styleUrl = "https://custom-debug-kamil.surge.sh/assets/index-578c6832.css";
+const scriptUrl =
+  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/dist/assets/index-ae17c913.js";
+const styleUrl =
+  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/dist/assets/index-578c6832.css";
 
 fetch(scriptUrl)
   .then((response) => response.text())

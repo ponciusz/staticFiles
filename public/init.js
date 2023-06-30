@@ -3,9 +3,9 @@ wrap.id = "debug-tools";
 document.body.appendChild(wrap);
 
 const scriptUrl =
-  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/{scriptName}";
+  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/dist/assets/{scriptName}";
 const styleUrl =
-  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/{styleName}";
+  "https://raw.githubusercontent.com/ponciusz/staticFiles/main/dist/assets/{styleName}";
 
 fetch(scriptUrl)
   .then((response) => response.text())
